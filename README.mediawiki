@@ -8,7 +8,7 @@ Scriptable language of SigLab had some resemblance to Pascal programming languag
  
 ===SigLab features and objectives===
 
-* Current version of SigLab system provides following core features/ objectives:
+Current version of SigLab system provides following core features/ objectives:
 * Provide easy to use USB controller for digital electronic projects
 * Avoid complexities of USB peripheral programming by providing full featured, easy to use scriptable interface
 * Introduce DIY - USB controller with standard electronic components
