@@ -1,2 +1,24 @@
 ==Welcome to SigLab - GitHub repository==
 
+===About SigLab===
+
+SigLab is a combination of open hardware and FOSS (free and open source software) projects. SigLab provides easy to use and full featured scriptable USB interface for digital electronic experiments. SigLab USB interface consisted with Microchip’s [http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf PIC18F2550] microcontroller unit and it provides 14 bidirectional (digital) I/O ports for external interfacing. 
+
+Scriptable language of SigLab had some resemblance to Pascal programming language and it provides complete IDE for script editing and debugging.
+ 
+===SigLab features and objectives===
+
+* Current version of SigLab system provides following core features/ objectives:
+* Provide easy to use USB controller for digital electronic projects
+* Avoid complexities of USB peripheral programming by providing full featured, easy to use scriptable interface
+* Introduce DIY – USB controller with standard electronic components
+* Provide live workspace to debug/watch hardware and firmware operations
+
+===SigLab USB controller===
+
+Current version of SigLab USB controller is based on PIC18F2550 microcontroller. Supplied PCB design support MCU with 28pin PDIP package and all the components are standard through-hole type. All the PCB design files, schematic diagrams and firmware files are available in "[http://github.com/dilshan/SigLab/downloads SigLab package]" (which is provided in the download section).
+
+===Project License===
+
+All the SigLab source codes (including sample codes) are licensed under the terms of [http://www.gnu.org/copyleft/gpl.html GNU General Public License] version 3.0. All the designs (which include PCB designs and schematics) and documents are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike] 3.0 license. SigLab project is release under the guidelines of "[http://freedomdefined.org/OSHW open hardware]" philosophy.
+
