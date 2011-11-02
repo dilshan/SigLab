@@ -1,0 +1,17 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F2550 -DL -O11111114 -fo48 -N"D:\SigLab\Firmware\siglabfw.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"D:\SigLab\Firmware\" "siglabfw.c" "USBdsc.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_USB_genHID.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 1 ms	 
+diagnostics: 0	121	Compilation Started	siglabfw.c
+warning: 35	1506	Implicit conversion of pointer to int	siglabfw.c
+warning: 53	1506	Implicit conversion of pointer to int	siglabfw.c
+warning: 53	1506	Implicit conversion of pointer to int	siglabfw.c
+diagnostics: 93	122	Compiled Successfully	siglabfw.c
+diagnostics: 0	121	Compilation Started	vars.h
+diagnostics: 219	122	Compiled Successfully	USBdsc.c
+diagnostics: 0	126	All files Compiled in 94 ms	 
+hint: 0	1140	Used RAM (bytes): 357 (18%)  Free RAM (bytes): 1668 (82%)	Used RAM (bytes): 357 (18%)  Free RAM (bytes): 1668 (82%)
+hint: 0	1140	Used ROM (bytes): 3360 (10%)  Free ROM (bytes): 29408 (90%)	Used ROM (bytes): 3360 (10%)  Free ROM (bytes): 29408 (90%)
+diagnostics: 0	124	Project Linked Successfully	siglabfw.mcppi
+diagnostics: 0	127	Linked in 266 ms	 
+diagnostics: 0	128	Project 'siglabfw.mcppi' completed: 453 ms	 
+diagnostics: 0	103	Finished successfully: 30 Oct 2011, 16:26:27	siglabfw.mcppi

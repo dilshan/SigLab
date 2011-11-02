@@ -1,0 +1,124 @@
+function \column{}\style{+B}ReadPort\style{-B}(PortNumber : Integer) : Integer
+function \column{}\style{+B}WritePort\style{-B}(PortNumber : Integer; PortValue : Integer) : Boolean
+function \column{}\style{+B}ReadDirection\style{-B}(PortNumber : Integer) : Integer
+function \column{}\style{+B}WriteDirection\style{-B}(PortNumber : Integer; DirectionValue : Integer) : Boolean
+procedure \column{}\style{+B}Print\style{-B}(V : Variant)
+function \column{}\style{+B}IntToStr\style{-B}(I : Integer) : String
+function \column{}\style{+B}StrToInt\style{-B}(Str : String) : Integer
+function \column{}\style{+B}StrToIntDef\style{-B}(Str : String; Def : Integer) : Integer
+function \column{}\style{+B}IntToHex\style{-B}(V : Integer; Digits : Integer) : String
+function \column{}\style{+B}FloatToStr\style{-B}(F : Float) : String
+function \column{}\style{+B}StrToFloat\style{-B}(Str : String) : Float
+function \column{}\style{+B}StrToFloatDef\style{-B}(Str : String; Def : Float) : Float
+function \column{}\style{+B}Chr\style{-B}(X : Integer) : String
+function \column{}\style{+B}Ord\style{-B}(S : String) : Integer
+function \column{}\style{+B}CharAt\style{-B}(S : String; X : Integer) : String
+procedure \column{}\style{+B} SetCharAt\style{-B}(S : String; X : Integer; C : String)
+procedure \column{}\style{+B} Delete\style{-B}(S : String; Index : Integer; Len : Integer)
+procedure \column{}\style{+B} Insert\style{-B}(Src : String; S : String; Index : Integer)
+function \column{}\style{+B}LowerCase\style{-B}(Str : String) : String
+function \column{}\style{+B}AnsiLowerCase\style{-B}(Str : String) : String
+function \column{}\style{+B}UpperCase\style{-B}(Str : String) : String
+function \column{}\style{+B}AnsiUpperCase\style{-B}(Str : String) : String
+function \column{}\style{+B}Pos\style{-B}(SubStr : String; Str : String) : Integer
+function \column{}\style{+B}Length\style{-B}(Str : String) : Integer
+procedure \column{}\style{+B} SetLength\style{-B}(S : String; NewLength : Integer)
+function \column{}\style{+B}TrimLeft\style{-B}(Str : String) : String
+function \column{}\style{+B}TrimRight\style{-B}(Str : String) : String
+function \column{}\style{+B}Trim\style{-B}(Str : String) : String
+function \column{}\style{+B}CompareText\style{-B}(Str1 : String; Str2 : String) : Integer
+function \column{}\style{+B}AnsiCompareText\style{-B}(Str1 : String; Str2 : String) : Integer 
+function \column{}\style{+B}CompareStr\style{-B}(Str1 : String; Str2 : String) : Integer
+function \column{}\style{+B}AnsiCompareStr\style{-B}(Str1 : String; Str2 : String) : Integer
+function \column{}\style{+B}IsDelimiter\style{-B}(Delims : String; S : String; Index : Integer) : Boolean
+function \column{}\style{+B}LastDelimiter\style{-B}(Delims : String; S : String) : Integer
+function \column{}\style{+B}QuotedStr\style{-B}(Str : String) : String
+function \column{}\style{+B}Copy\style{-B}(Str : String;  Index : Integer; Len : Integer) : String
+function \column{}\style{+B}LeftStr\style{-B}(AText : String; ACount : Integer) : String
+function \column{}\style{+B}RightStr\style{-B}(AText : String; ACount : Integer) : String
+function \column{}\style{+B}MidStr\style{-B}(AText : String; AStart : Integer; ACount : Integer) : String
+function \column{}\style{+B}StringOfChar\style{-B}(Ch : String; Count : Integer) : String
+function \column{}\style{+B}Sin\style{-B}(A : Float) : Float
+function \column{}\style{+B}Sinh\style{-B}(A : Float) : Float
+function \column{}\style{+B}Cos\style{-B}(A : Float) : Float
+function \column{}\style{+B}Cosh\style{-B}(A : Float) : Float
+function \column{}\style{+B}Tan\style{-B}(A : Float) : Float
+function \column{}\style{+B}Tanh\style{-B}(A : Float) : Float
+function \column{}\style{+B}ArcSin\style{-B}(V : Float) : Float
+function \column{}\style{+B}ArcSinh\style{-B}(V : Float) : Float
+function \column{}\style{+B}ArcCos\style{-B}(V : Float) : Float
+function \column{}\style{+B}ArcCosh\style{-B}(V : Float) : Float
+function \column{}\style{+B}ArcTan\style{-B}(V : Float) : Float
+function \column{}\style{+B}ArcTanh\style{-B}(V : Float) : Float
+function \column{}\style{+B}Cotan\style{-B}(A : Float) : Float
+function \column{}\style{+B}Hypot\style{-B}(X : Float; Y : Float) : Float
+function \column{}\style{+B}Inc\style{-B}(A : Integer, B : Integer) : Integer
+function \column{}\style{+B}Abs\style{-B}(V : Float) : Float
+function \column{}\style{+B}Exp\style{-B}(V : Float) : Float
+function \column{}\style{+B}Ln\style{-B}(V : Float) : Float
+function \column{}\style{+B}Log2\style{-B}(V : Float) : Float
+function \column{}\style{+B}Log10\style{-B}(V : Float) : Float
+function \column{}\style{+B}LogN\style{-B}(V : Float; X : Float) : Float
+function \column{}\style{+B}Sqrt\style{-B}(V : Float) : Float
+function \column{}\style{+B}Sqr\style{-B}(V : Float) : Float
+function \column{}\style{+B}Int\style{-B}(V : Float) : Float
+function \column{}\style{+B}Frac\style{-B}(V : Float) : Float
+function \column{}\style{+B}Trunc\style{-B}(V : Float) : Integer
+function \column{}\style{+B}Round\style{-B}(V : Float) : Integer
+function \column{}\style{+B}Power\style{-B}(Base : Float; Exponent : Float) : Float
+function \column{}\style{+B}DegToRad\style{-B}(A : Float) : Float
+function \column{}\style{+B}RadToDeg\style{-B}(A : Float) : Float
+function \column{}\style{+B}Max\style{-B}(V1 : Float; V2 : Float) : Float
+function \column{}\style{+B}Min\style{-B}(V1 : Float; V2 : Float) : Float
+function \column{}\style{+B}Pi\style{-B}() : Float
+function \column{}\style{+B}Random\style{-B}() : Float
+function \column{}\style{+B}RandomInt\style{-B}(Range : Integer) : Integer
+procedure \column{}\style{+B}Randomize\style{-B}()
+function \column{}\style{+B}RandG\style{-B}(Mean : Float; StdDev : Float) : Float
+function \column{}\style{+B}RandSeed\style{-B}() : Integer
+function \column{}\style{+B}SetRandSeed\style{-B}(Seed : Integer)
+procedure \column{}\style{+B}VarClear\style{-B}(V : Variant)
+function \column{}\style{+B}VarIsNull\style{-B}(V : Variant) : Boolean
+function \column{}\style{+B}VarIsEmpty\style{-B}(V : Variant) : Boolean
+function \column{}\style{+B}VarAsType\style{-B}(V : Variant; VarType : Integer) : Variant
+function \column{}\style{+B}VarToStr\style{-B}(V : Variant) : String 
+function \column{}\style{+B}Now\style{-B}() : DateTime
+function \column{}\style{+B}Date\style{-B}() : DateTime
+function \column{}\style{+B}Time\style{-B}() : DateTime
+function \column{}\style{+B}DateTimeToStr\style{-B}(Dt : DateTime) : String
+function \column{}\style{+B}StrToDateTime\style{-B}(Str : String) : DateTime
+function \column{}\style{+B}DateToStr\style{-B}(Dt : DateTime) : String
+function \column{}\style{+B}StrToDate\style{-B}(Str : String) : DateTime
+function \column{}\style{+B}TimeToStr\style{-B}(Dt : DateTime) : String
+function \column{}\style{+B}StrToTime\style{-B}(Str : String) : DateTime
+function \column{}\style{+B}DayOfWeek\style{-B}(Dt : DateTime) : Integer
+function \column{}\style{+B}FormatDateTime\style{-B}(Frm : String; Dt : DateTime) : String
+function \column{}\style{+B}IsLeapYear\style{-B}(Year : Integer) : Boolean
+function \column{}\style{+B}IncMonth\style{-B}(Dt : DateTime; Nb : Integer) : DateTime
+procedure \column{}\style{+B}DecodeDate\style{-B}(Dt : DateTime; Y : Integer; M : Integer; D : Integer)
+function \column{}\style{+B}EncodeDate\style{-B}(Y : Integer; M : Integer; D : Integer) : DateTime
+procedure \column{}\style{+B}DecodeTime\style{-B}(Dt : DateTime; H : Integer; M : Integer; S : Integer; MS : Integer)
+function \column{}\style{+B}EncodeTime\style{-B}(H : Integer; M : Integer; S : Integer; MS : Integer) : DateTime
+procedure \column{}\style{+B}SaveStringToFile\style{-B}(FileName : String; Data : String)
+function \column{}\style{+B}LoadStringFromFile\style{-B}(FileName : String) : String
+procedure \column{}\style{+B}AppendStringToFile\style{-B}(FileName : String; Data : String)
+function \column{}\style{+B}FileExists\style{-B}(FileName : String) : Boolean
+function \column{}\style{+B}DeleteFile\style{-B}(FileName : String) : Boolean
+function \column{}\style{+B}RenameFile\style{-B}(OldName : String; NewName : String) : Boolean
+procedure \column{}\style{+B}ChDir\style{-B}(S : String)
+function \column{}\style{+B}CreateDir\style{-B}(Dir : String) : Boolean
+function \column{}\style{+B}RemoveDir\style{-B}(Dir : String) : Boolean
+function \column{}\style{+B}GetCurrentDir\style{-B}() : String
+function \column{}\style{+B}SetCurrentDir\style{-B}(Dir : String) : Boolean
+function \column{}\style{+B}FileSearch\style{-B}(Name : String; DirList : String) : String
+function \column{}\style{+B}ExtractFileDrive\style{-B}(FName : String) : String
+function \column{}\style{+B}ExtractFileDir\style{-B}(FName : String) : String
+function \column{}\style{+B}ExtractFileName\style{-B}(FName : String) : String
+function \column{}\style{+B}ExtractFilePath\style{-B}(FName : String) : String
+function \column{}\style{+B}ExtractFileExt\style{-B}(FName : String) : String
+function \column{}\style{+B}ChangeFileExt\style{-B}(FName : String ; Ext : String) : String
+function \column{}\style{+B}Exec\style{-B}(FilePath : String; WindowState : Integer) : Boolean
+function \column{}\style{+B}ShiftRight\style{-B}(Num : Integer; Count : Integer) : Integer
+function \column{}\style{+B}NumberToBin\style{-B}(Num : Integer) : String
+procedure \column{}\style{+B}Sleep\style{-B}(MS : Integer)
+function \column{}\style{+B}MsgBox\style{-B}(Msg : String; Buttons : Integer) : Integer

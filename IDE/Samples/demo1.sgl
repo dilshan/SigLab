@@ -1,0 +1,35 @@
+// LED Blinking demo using SigLab USB interface board.
+//
+// Hardware setup:
+//
+//  -----------
+//             |
+//     PORTA.0 |---|330R|---|<|---GND
+//             |     R1      D1   
+//             |                  
+// 1. Connect R1 (330ohm) resistor PORTA pin0 as shown in above.
+// 2. Connect other end of the R1 (330ohm) to positive side of D1 (LED).
+// 3. Connect negative end of D1 (LED) to ground. 
+// 4. Attach USB connector to computer and execute this program.
+
+var
+  i : Integer;
+
+begin
+
+  WriteDirection(PORTA,0);
+  print('Start blinking loop...');  
+  
+  for i := 0 to 10 do begin
+  
+    if ((i mod 2) = 1) then
+      writeport(PORTA,0)
+    else
+      writeport(PORTA,1);  
+      
+  end;
+  
+  print('End blinking loop');
+  writeport(PORTA,0);
+  
+end;
