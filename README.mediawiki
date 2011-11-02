@@ -2,7 +2,7 @@
 
 ===About SigLab===
 
-SigLab is a combination of open hardware and FOSS (free and open source software) projects. SigLab provides easy to use and full featured scriptable USB interface for digital electronic experiments. SigLab USB interface consisted with Microchip’s [http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf PIC18F2550] microcontroller unit and it provides 14 bidirectional (digital) I/O ports for external interfacing. 
+SigLab is a combination of open hardware and FOSS (free and open source software) projects. SigLab provides easy to use and full featured scriptable USB interface for digital electronic experiments. SigLab USB interface consisted with Microchip's [http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf PIC18F2550] microcontroller unit and it provides 14 bidirectional (digital) I/O ports for external interfacing. 
 
 Scriptable language of SigLab had some resemblance to Pascal programming language and it provides complete IDE for script editing and debugging.
  
@@ -11,7 +11,7 @@ Scriptable language of SigLab had some resemblance to Pascal programming languag
 * Current version of SigLab system provides following core features/ objectives:
 * Provide easy to use USB controller for digital electronic projects
 * Avoid complexities of USB peripheral programming by providing full featured, easy to use scriptable interface
-* Introduce DIY – USB controller with standard electronic components
+* Introduce DIY - USB controller with standard electronic components
 * Provide live workspace to debug/watch hardware and firmware operations
 
 ===SigLab USB controller===
