@@ -22,3 +22,7 @@ Current version of SigLab USB controller is based on PIC18F2550 microcontroller.
 
 All the SigLab source codes (including sample codes) are licensed under the terms of [http://www.gnu.org/copyleft/gpl.html GNU General Public License] version 3.0. All the designs (which include PCB designs and schematics) and documents are licensed under the [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike] 3.0 license. SigLab project is release under the guidelines of "[http://freedomdefined.org/OSHW open hardware]" philosophy.
 
+===Project Downloads===
+
+Due to [https://github.com/blog/1302-goodbye-uploads removal of the Github "downloads section"] we provide another alternative site to download SigLab documents and compiled binaries. These latest compiled binaries are now available at [http://elect.wikispaces.com/Downloads elect.wikispaces.com]. 
+
