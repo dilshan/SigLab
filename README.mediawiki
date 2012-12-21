@@ -16,7 +16,7 @@ Current version of SigLab system provides following core features/ objectives:
 
 ===SigLab USB controller===
 
-Current version of SigLab USB controller is based on PIC18F2550 microcontroller. Supplied PCB design support MCU with 28pin PDIP package and all the components are standard through-hole type. All the PCB design files, schematic diagrams and firmware files are available in "[http://github.com/dilshan/SigLab/downloads SigLab package]" (which is provided in the download section).
+Current version of SigLab USB controller is based on PIC18F2550 microcontroller. Supplied PCB design support MCU with 28pin PDIP package and all the components are standard through-hole type. All the PCB design files, schematic diagrams and firmware files are available in "[http://elect.wikispaces.com/Downloads SigLab package]" (which is provided in the download section).
 
 ===Project License===
 
@@ -24,5 +24,4 @@ All the SigLab source codes (including sample codes) are licensed under the term
 
 ===Project Downloads===
 
-Due to [https://github.com/blog/1302-goodbye-uploads removal of the Github "downloads section"] we provide another alternative [http://elect.wikispaces.com/Downloads site] to download SigLab documents and compiled binaries. Latest SigLab documents and compiled binaries are now available to download at [http://elect.wikispaces.com/Downloads elect.wikispaces.com]. 
-
+Due to [https://github.com/blog/1302-goodbye-uploads removal of the Github "downloads section"] we provide another alternative [http://elect.wikispaces.com/Downloads site] to download SigLab documents and compiled binaries. Latest SigLab documents and compiled binaries are now available to download at [http://elect.wikispaces.com/Downloads elect.wikispaces.com]. Project [https://github.com/dilshan/SigLab source code and configuration files] are still in GitHub repository.
